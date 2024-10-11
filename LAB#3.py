@@ -9,5 +9,5 @@ def el():
         length = 2*l+(a+b)*((2*N)-2)+a
     else:
         length = 2*l+a
-    return print('- Итоговая длина шнурка:', length)
-el()
+    return length
+print('-- Итоговая длина шнурка:', el())
