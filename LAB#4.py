@@ -6,4 +6,5 @@ def main():
         a = int(input(f'Введите число №{i+1}: '))
         q += a
     return q
+    
 print(main())
