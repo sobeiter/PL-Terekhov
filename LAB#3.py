@@ -10,4 +10,5 @@ def el():
     else:
         length = 2*l+a
     return length
+    
 print('-- Итоговая длина шнурка:', el())
