@@ -2,12 +2,12 @@
 
 import random # Для разнообразия, вместо ручного ввода :>
 
-a = int(input("Введите количество строк: "))
-b = int(input("Введите количество столбцов: "))
+a = int(input('Введите количество строк: '))
+b = int(input('Введите количество столбцов: '))
 
 matrix = [[random.randint(1, 100) for _ in range(b)] for _ in range(a)]
 
-print("Исходная матрица:")
+print('Исходная матрица:')
 for row in matrix:
     print(row)
 
