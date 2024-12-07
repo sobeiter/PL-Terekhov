@@ -21,7 +21,7 @@ def click():
 def close():
     newindow = Tk()
     newindow.geometry('400x150')
-    newindow.title('Файлы загружены')
+    newindow.title('GitHUB API')
 
     lbl2 = Label(newindow, text='Файлы успешно загружены!', font=('Arial', 20))
     lbl2.pack(pady=50)
